@@ -8,9 +8,17 @@ document.addEventListener('DOMContentLoaded', () =>{
         {bagName: 'Backpack LilyFull', preco: '110 USD', imagem: '/img/bolsas/4.webp' },
     ]
 
+    const dados2 = [
+        {bagName: 'Backpack AnaFull', preco: '50 USD', imagem: '/img/bolsas/5.webp' },
+        {bagName: 'Backpack JennyFull', preco: '70 USD', imagem: '/img/bolsas/6.webp' },
+        {bagName: 'Backpack CatherineFull', preco: '125 USD', imagem: '/img/bolsas/7.webp' },
+        {bagName: 'Backpack MaryFull', preco: '150 USD', imagem: '/img/bolsas/8.webp' },
+    ]
+
 
 
     const fileira1 = document.querySelector('.fileira1')
+    const fileira2 = document.querySelector('.fileira2')
 
     dados1.forEach(bags1 =>{
         const cardBag = document.createElement('div')
@@ -24,5 +32,19 @@ document.addEventListener('DOMContentLoaded', () =>{
         `
 
         fileira1.appendChild(cardBag)
+    })
+
+     dados2.forEach(bags2 =>{
+        const cardBag = document.createElement('div')
+        cardBag.classList.add('card-bag')
+
+        cardBag.innerHTML = `
+            <img src = "${bags2.imagem}" alt = "img bolsa ${bags2.bagName}">
+            <h3 style="text-align: center;"> ${bags2.bagName}</h3>
+            <p style="text-align: center; font-size: 0.95rem"> ${bags2.preco}</p>
+            <button >Comprar</button>
+        `
+
+        fileira2.appendChild(cardBag)
     })
 })
