@@ -169,7 +169,7 @@ hr{
 footer{
   display: flex;
   flex-direction: column;
-  height: 12rem;
+  height: 9rem;
   gap: 1rem;
   
 
@@ -203,3 +203,12 @@ footer{
   font-size: 0.9rem;
 }
 
+
+.footer2{
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  background: rgb(245, 245, 245);
+  height: 4rem;
+  text-align: center;
+}
