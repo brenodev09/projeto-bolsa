@@ -2,17 +2,17 @@
 // cards das fileiras
 document.addEventListener('DOMContentLoaded', () =>{
     const dados1 =[
-        {bagName: 'Backpack SandraFull', preco: '80 USD', imagem: '/img/bolsas/1.webp' },
-        {bagName: 'Backpack EmilyFull', preco: '90 USD', imagem: '/img/bolsas/2.webp' },
-        {bagName: 'Backpack NatalieFull', preco: '95 USD', imagem: '/img/bolsas/3.webp' },
-        {bagName: 'Backpack LilyFull', preco: '110 USD', imagem: '/img/bolsas/4.webp' },
+        {bagName: 'Backpack SandraFull', preco: '80 USD', imagem: './img/bolsas/1.webp' },
+        {bagName: 'Backpack EmilyFull', preco: '90 USD', imagem: './img/bolsas/2.webp' },
+        {bagName: 'Backpack NatalieFull', preco: '95 USD', imagem: './img/bolsas/3.webp' },
+        {bagName: 'Backpack LilyFull', preco: '110 USD', imagem: './img/bolsas/4.webp' },
     ]
 
     const dados2 = [
-        {bagName: 'Backpack AnaFull', preco: '50 USD', imagem: '/img/bolsas/5.webp' },
-        {bagName: 'Backpack JennyFull', preco: '70 USD', imagem: '/img/bolsas/6.webp' },
-        {bagName: 'Backpack CatherineFull', preco: '125 USD', imagem: '/img/bolsas/7.webp' },
-        {bagName: 'Backpack MaryFull', preco: '150 USD', imagem: '/img/bolsas/8.webp' },
+        {bagName: 'Backpack AnaFull', preco: '50 USD', imagem: './img/bolsas/5.webp' },
+        {bagName: 'Backpack JennyFull', preco: '70 USD', imagem: './img/bolsas/6.webp' },
+        {bagName: 'Backpack CatherineFull', preco: '125 USD', imagem: './img/bolsas/7.webp' },
+        {bagName: 'Backpack MaryFull', preco: '150 USD', imagem: './img/bolsas/8.webp' },
     ]
 
 
