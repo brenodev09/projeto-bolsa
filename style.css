@@ -110,3 +110,54 @@ main{
   }
 }
 
+
+.bolsas{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+}
+
+.fileira1{
+  display: flex;
+  gap: 3rem;
+  margin-top: 1rem;
+justify-content: center;
+}
+
+.card-bag{
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+
+
+  img{
+    width: 15rem;
+    height: 13rem;
+  }
+
+  button{
+    margin-top: 1rem;
+    width: 15rem;
+    padding: 0.75rem;
+    background: rgb(254, 226, 155);
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    &:hover{
+     background: rgb(214, 183, 104);  
+     transition: 0.3s ease-in-out;
+    }
+    
+  }
+ 
+}
+
